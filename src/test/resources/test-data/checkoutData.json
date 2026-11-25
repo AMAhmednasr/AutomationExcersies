@@ -1,0 +1,51 @@
+
+{
+  "name": "Automation_checkout",
+  "email": "automationcheckout_",
+  "titleMale": "Mr",
+  "titleFemale": "Mrs",
+  "password": "P@sswo0rd",
+
+  "day": "10",
+  "month": "May",
+  "year": "1998",
+
+  "firstName": "Automation_Firstname",
+  "lastName": "Automation_Lastname",
+  "company": "Automation Company",
+  "address1": "123 Test Street",
+  "address2": "Building 5",
+
+  "country": "India",
+  "state": "Cairo",
+  "city": "Helwan",
+  "zipcode": "11722",
+  "mobileNumber": "01012345678",
+
+  "products" :
+  {
+    "name" : "Men Tshirt",
+    "price" : "Rs. 400",
+    "quantity" : "1",
+    "total" : "Rs. 400"
+  },
+
+
+  "payment": {
+    "name": "Ahmed Mohamed",
+    "cardNumber": "1234567890123456",
+    "cvc": "123",
+    "expiryMonth": "12",
+    "expiryYear": "2030"
+  },
+
+
+  "messages" :
+  {
+    "error" : "Email Address already exist!",
+    "cartAdded" : "Your product has been added to cart.",
+    "paymentSuccessMsg" : "Congratulations! Your order has been confirmed!"
+
+  },
+  "invoiceName" : "invoice.txt"
+}

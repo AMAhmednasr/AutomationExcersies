@@ -1,0 +1,29 @@
+
+{
+  "name": "Automation_Test",
+  "email": "automationtest_",
+  "titleMale": "Mr",
+  "titleFemale": "Mrs",
+  "password": "P@sswo0rd",
+
+  "day": "10",
+  "month": "May",
+  "year": "1998",
+
+  "firstName": "Automation_Firstname",
+  "lastName": "Automation_Lastname",
+  "company": "Automation Company",
+  "address1": "123 Test Street",
+  "address2": "Building 5",
+
+  "country": "India",
+  "state": "Cairo",
+  "city": "Helwan",
+  "zipcode": "11722",
+  "mobileNumber": "01012345678",
+
+  "messages" :
+  {
+    "error" : "Email Address already exist!"
+  }
+}

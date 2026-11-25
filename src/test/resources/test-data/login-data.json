@@ -1,0 +1,21 @@
+
+{
+  "name": "Automation_Test",
+  "email": "automationtest_",
+  "password": "P@sswo0rd",
+
+
+
+  "firstName": "Automation_Firstname",
+  "lastName": "Automation_Lastname",
+  "company": "Automation Company",
+  "address1": "123 Test Street",
+  "address2": "Building 5",
+
+
+
+  "messages" :
+  {
+    "error" : "Your email or password is incorrect!"
+  }
+}
