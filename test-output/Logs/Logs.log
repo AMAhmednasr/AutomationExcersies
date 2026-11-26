@@ -136,3 +136,40 @@
 [INFO] - [26-11-2026 19:37:37] [main] [com.automationexercises.listeners.TestNGListeners] - Allure reports generated with history.
 [INFO] - [26-11-2026 19:37:37] [main] [com.automationexercises.FileUtils] - Target File Path: C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recovery\test-output\reports\index.html File was renamed to AllureReport_2026-11-26_19-37-37.html
 [INFO] - [26-11-2026 19:37:37] [main] [com.automationexercises.listeners.TestNGListeners] - Test Execution finished and Allure report opened in browser.
+[INFO] - [26-11-2026 20:29:05] [main] [com.automationexercises.listeners.TestNGListeners] - Test execution started.
+[INFO] - [26-11-2026 20:29:05] [main] [com.automationexercises.listeners.TestNGListeners] - Allure results folded deleted sucessfulyC:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recovery\test-output\allure-results
+[ERROR] - [26-11-2026 20:29:05] [main] [com.automationexercises.FileUtils] - Failed to delete file: C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recoverytest-output\Logs\Logs.log C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recoverytest-output\Logs\Logs.log
+[INFO] - [26-11-2026 20:29:05] [main] [com.automationexercises.listeners.TestNGListeners] - Test output directories cleaned.
+[INFO] - [26-11-2026 20:29:05] [main] [com.automationexercises.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [26-11-2026 20:29:05] [main] [com.automationexercises.listeners.TestNGListeners] - Test output directories created.
+[INFO] - [26-11-2026 20:29:05] [main] [com.automationexercises.listeners.TestNGListeners] - Properties loaded.
+[INFO] - [26-11-2026 20:29:05] [main] [com.automationexercises.utils.report.AllureEnvironmentManager] - Allure Environment Variables are set successfully
+[INFO] - [26-11-2026 20:29:08] [main] [com.automationexercises.utils.report.AllureBinaryManager] - Allure binary already exists
+[INFO] - [26-11-2026 20:29:08] [main] [com.automationexercises.listeners.TestNGListeners] - Allure environment variables set.
+[INFO] - [26-11-2026 20:29:08] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\test\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [26-11-2026 20:29:08] [main] [com.automationexercises.drivers.GUIDriver] - Inializing GUIDriver with browser: Edge
+[INFO] - [26-11-2026 20:29:08] [main] [com.automationexercises.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [26-11-2026 20:29:15] [main] [com.automationexercises.utils.actions.BrowserActions] - Navigated to: https://automationexercise.com/
+[INFO] - [26-11-2026 20:29:17] [main] [com.automationexercises.listeners.TestNGListeners] - Test CasevalidLoginTC execution started and screen recording started.
+[INFO] - [26-11-2026 20:29:21] [main] [com.automationexercises.apis.UserManagmentAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [26-11-2026 20:29:25] [main] [com.automationexercises.utils.actions.BrowserActions] - Navigated to: https://automationexercise.com//login
+[INFO] - [26-11-2026 20:29:25] [main] [com.automationexercises.utils.actions.ElementActions] - Typed text 'automationtest_1795717745331@gmail.com' into element: By.cssSelector: [data-qa="login-email"]
+[INFO] - [26-11-2026 20:29:25] [main] [com.automationexercises.utils.actions.ElementActions] - Typed text 'P@sswo0rd' into element: By.cssSelector: [data-qa="login-password"]
+[INFO] - [26-11-2026 20:29:27] [main] [com.automationexercises.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa="login-button"]
+[INFO] - [26-11-2026 20:29:27] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.tagName: b: Automation_Test
+[INFO] - [26-11-2026 20:29:27] [main] [com.automationexercises.pages.components.NavigationBarComponent] - Verifying user label Automation_Test
+[INFO] - [26-11-2026 20:29:28] [main] [com.automationexercises.apis.UserManagmentAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [26-11-2026 20:29:29] [main] [com.automationexercises.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [26-11-2026 20:29:29] [main] [com.automationexercises.listeners.TestNGListeners] - Test Case validLoginTC Passed and screen recording stopped.
+[INFO] - [26-11-2026 20:29:40] [main] [com.automationexercises.listeners.TestNGListeners] - Allure reports generated.
+[INFO] - [26-11-2026 20:29:40] [main] [com.automationexercises.FileUtils] - Directory copied successfully from C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recovery\test-output\full-report\history to C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recovery\test-output\allure-results\history
+[INFO] - [26-11-2026 20:29:40] [main] [com.automationexercises.listeners.TestNGListeners] - Allure history copied.
+[INFO] - [26-11-2026 20:29:44] [main] [com.automationexercises.listeners.TestNGListeners] - Allure reports generated with history.
+[INFO] - [26-11-2026 20:29:44] [main] [com.automationexercises.FileUtils] - Target File Path: C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recovery\test-output\reports\index.html File was renamed to AllureReport_2026-11-26_20-29-44.html
+[INFO] - [26-11-2026 20:29:44] [main] [com.automationexercises.listeners.TestNGListeners] - Test Execution finished and Allure report opened in browser.
