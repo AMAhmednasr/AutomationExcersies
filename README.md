@@ -32,13 +32,16 @@ git clone https://github.com/AMAhmednasr/AutomationExcersies.git
 
 **4. Run the tests**
 
-From the terminal, execute:
+- Open the `src/test/java` directory.
+- Navigate to the desired test class.
+- Open the test class you want to execute, for example:
+    - `LoginTest`
+    - `InvoicesTest`
+    - `CheckoutTest`
+- Right-click inside the Java file.
+- Select **Run 'TestClassName'** to execute the tests.
 
-```bash
-mvn clean test
-```
-
-Or run the TestNG test classes directly from IntelliJ IDEA.
+The framework automatically generates Allure results and opens the Allure report after test execution.
 
 ## Framework Features
 
@@ -49,6 +52,7 @@ Or run the TestNG test classes directly from IntelliJ IDEA.
 - Reusable utilities and explicit waits
 - Automatic screenshots and screen recording
 - Logging and Allure reporting
+- Automatic Allure report generation and opening
 
 ## Test Scenarios
 
@@ -60,13 +64,9 @@ Or run the TestNG test classes directly from IntelliJ IDEA.
 
 ## Test Reports
 
-Allure results are generated during test execution.
+Allure results are automatically generated during test execution.
 
-To generate and open the report, use:
-
-```bash
-allure serve allure-results
-```
+The framework automatically generates and opens the Allure report after execution. No manual command is required.
 
 ## Author
 
