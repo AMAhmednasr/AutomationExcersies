@@ -41,21 +41,3 @@ build/
 
 
 
-# Logs
-logs/
-*.log
-
-# Allure Reports
-allure-results/
-allure-report/
-
-# TestNG Reports
-test-output/
-
-# Environment Variables
-.env
-.env.*
-
-# OS
-.DS_Store
-Thumbs.db

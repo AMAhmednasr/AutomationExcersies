@@ -1,0 +1,138 @@
+[INFO] - [26-11-2026 18:56:23] [main] [com.automationexercises.listeners.TestNGListeners] - Test execution started.
+[INFO] - [26-11-2026 18:56:23] [main] [com.automationexercises.listeners.TestNGListeners] - Allure results folded deleted sucessfulyC:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recovery\test-output\allure-results
+[ERROR] - [26-11-2026 18:56:23] [main] [com.automationexercises.FileUtils] - Failed to delete file: C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recoverytest-output\Logs\Logs.log C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recoverytest-output\Logs\Logs.log
+[INFO] - [26-11-2026 18:56:23] [main] [com.automationexercises.listeners.TestNGListeners] - Test output directories cleaned.
+[INFO] - [26-11-2026 18:56:23] [main] [com.automationexercises.FileUtils] - Directory created: /test-output/screenshots/
+[INFO] - [26-11-2026 18:56:23] [main] [com.automationexercises.FileUtils] - Directory created: /test-output/screen-records/
+[INFO] - [26-11-2026 18:56:23] [main] [com.automationexercises.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [26-11-2026 18:56:23] [main] [com.automationexercises.listeners.TestNGListeners] - Test output directories created.
+[INFO] - [26-11-2026 18:56:23] [main] [com.automationexercises.listeners.TestNGListeners] - Properties loaded.
+[INFO] - [26-11-2026 18:56:23] [main] [com.automationexercises.utils.report.AllureEnvironmentManager] - Allure Environment Variables are set successfully
+[INFO] - [26-11-2026 18:56:25] [main] [com.automationexercises.utils.report.AllureBinaryManager] - Allure binary already exists
+[INFO] - [26-11-2026 18:56:25] [main] [com.automationexercises.listeners.TestNGListeners] - Allure environment variables set.
+[INFO] - [26-11-2026 18:56:25] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\test\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [26-11-2026 18:56:26] [main] [com.automationexercises.drivers.GUIDriver] - Inializing GUIDriver with browser: Edge
+[INFO] - [26-11-2026 18:56:26] [main] [com.automationexercises.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [26-11-2026 18:56:33] [main] [com.automationexercises.utils.actions.BrowserActions] - Navigated to: https://automationexercise.com/
+[INFO] - [26-11-2026 18:56:34] [main] [com.automationexercises.listeners.TestNGListeners] - Test CasevalidLoginTC execution started and screen recording started.
+[INFO] - [26-11-2026 18:56:40] [main] [com.automationexercises.apis.UserManagmentAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [26-11-2026 18:56:43] [main] [com.automationexercises.utils.actions.BrowserActions] - Navigated to: https://automationexercise.com//login
+[INFO] - [26-11-2026 18:56:44] [main] [com.automationexercises.utils.actions.ElementActions] - Typed text 'automationtest_1795712182849@gmail.com' into element: By.cssSelector: [data-qa="login-email"]
+[INFO] - [26-11-2026 18:56:44] [main] [com.automationexercises.utils.actions.ElementActions] - Typed text 'P@sswo0rd' into element: By.cssSelector: [data-qa="login-password"]
+[INFO] - [26-11-2026 18:56:46] [main] [com.automationexercises.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa="login-button"]
+[INFO] - [26-11-2026 18:56:46] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.tagName: b: Automation_Test
+[INFO] - [26-11-2026 18:56:46] [main] [com.automationexercises.pages.components.NavigationBarComponent] - Verifying user label Automation_Test
+[INFO] - [26-11-2026 18:56:47] [main] [com.automationexercises.apis.UserManagmentAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [26-11-2026 18:56:48] [main] [com.automationexercises.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [26-11-2026 18:56:48] [main] [com.automationexercises.listeners.TestNGListeners] - Test Case validLoginTC Passed and screen recording stopped.
+[INFO] - [26-11-2026 18:56:56] [main] [com.automationexercises.listeners.TestNGListeners] - Allure reports generated.
+[INFO] - [26-11-2026 18:56:56] [main] [com.automationexercises.FileUtils] - Directory copied successfully from C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recovery\test-output\full-report\history to C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recovery\test-output\allure-results\history
+[INFO] - [26-11-2026 18:56:56] [main] [com.automationexercises.listeners.TestNGListeners] - Allure history copied.
+[INFO] - [26-11-2026 18:56:59] [main] [com.automationexercises.listeners.TestNGListeners] - Allure reports generated with history.
+[INFO] - [26-11-2026 18:56:59] [main] [com.automationexercises.FileUtils] - Target File Path: C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recovery\test-output\reports\index.html File was renamed to AllureReport_2026-11-26_18-56-59.html
+[INFO] - [26-11-2026 18:57:00] [main] [com.automationexercises.listeners.TestNGListeners] - Test Execution finished and Allure report opened in browser.
+[INFO] - [26-11-2026 19:36:50] [main] [com.automationexercises.listeners.TestNGListeners] - Test execution started.
+[INFO] - [26-11-2026 19:36:50] [main] [com.automationexercises.listeners.TestNGListeners] - Allure results folded deleted sucessfulyC:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recovery\test-output\allure-results
+[ERROR] - [26-11-2026 19:36:50] [main] [com.automationexercises.FileUtils] - Failed to delete file: C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recoverytest-output\Logs\Logs.log C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recoverytest-output\Logs\Logs.log
+[INFO] - [26-11-2026 19:36:50] [main] [com.automationexercises.listeners.TestNGListeners] - Test output directories cleaned.
+[INFO] - [26-11-2026 19:36:50] [main] [com.automationexercises.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [26-11-2026 19:36:50] [main] [com.automationexercises.listeners.TestNGListeners] - Test output directories created.
+[INFO] - [26-11-2026 19:36:50] [main] [com.automationexercises.listeners.TestNGListeners] - Properties loaded.
+[INFO] - [26-11-2026 19:36:50] [main] [com.automationexercises.utils.report.AllureEnvironmentManager] - Allure Environment Variables are set successfully
+[INFO] - [26-11-2026 19:36:52] [main] [com.automationexercises.utils.report.AllureBinaryManager] - Allure binary already exists
+[INFO] - [26-11-2026 19:36:52] [main] [com.automationexercises.listeners.TestNGListeners] - Allure environment variables set.
+[INFO] - [26-11-2026 19:36:52] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\test\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [26-11-2026 19:36:53] [main] [com.automationexercises.drivers.GUIDriver] - Inializing GUIDriver with browser: Edge
+[INFO] - [26-11-2026 19:36:53] [main] [com.automationexercises.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [26-11-2026 19:36:58] [main] [com.automationexercises.utils.actions.BrowserActions] - Navigated to: https://automationexercise.com/
+[INFO] - [26-11-2026 19:36:58] [main] [com.automationexercises.listeners.TestNGListeners] - Test CaseregisterNewAccount execution started and screen recording started.
+[INFO] - [26-11-2026 19:37:03] [main] [com.automationexercises.apis.UserManagmentAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [26-11-2026 19:37:05] [main] [com.automationexercises.tests.ui.InvoiceTest] - automationcheckout_1795714612990@gmail.com
+[INFO] - [26-11-2026 19:37:05] [main] [com.automationexercises.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [26-11-2026 19:37:06] [main] [com.automationexercises.listeners.TestNGListeners] - Test Case registerNewAccount Passed and screen recording stopped.
+[INFO] - [26-11-2026 19:37:06] [main] [com.automationexercises.listeners.TestNGListeners] - Test CaseloginToAccount execution started and screen recording started.
+[INFO] - [26-11-2026 19:37:07] [main] [com.automationexercises.utils.actions.BrowserActions] - Navigated to: https://automationexercise.com//login
+[INFO] - [26-11-2026 19:37:07] [main] [com.automationexercises.utils.actions.ElementActions] - Typed text 'automationcheckout_1795714612990@gmail.com' into element: By.cssSelector: [data-qa="login-email"]
+[INFO] - [26-11-2026 19:37:07] [main] [com.automationexercises.utils.actions.ElementActions] - Typed text 'P@sswo0rd' into element: By.cssSelector: [data-qa="login-password"]
+[INFO] - [26-11-2026 19:37:08] [main] [com.automationexercises.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa="login-button"]
+[INFO] - [26-11-2026 19:37:08] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.tagName: b: Automation_checkout
+[INFO] - [26-11-2026 19:37:08] [main] [com.automationexercises.pages.components.NavigationBarComponent] - Verifying user label Automation_checkout
+[INFO] - [26-11-2026 19:37:09] [main] [com.automationexercises.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [26-11-2026 19:37:09] [main] [com.automationexercises.listeners.TestNGListeners] - Test Case loginToAccount Passed and screen recording stopped.
+[INFO] - [26-11-2026 19:37:09] [main] [com.automationexercises.listeners.TestNGListeners] - Test CaseaddProductToCart execution started and screen recording started.
+[INFO] - [26-11-2026 19:37:10] [main] [com.automationexercises.utils.actions.BrowserActions] - Navigated to: https://automationexercise.com//products
+[INFO] - [26-11-2026 19:37:10] [main] [com.automationexercises.utils.actions.ElementActions] - Hovered over element: By.xpath: //div[@class='productinfo text-center']/p[text()='Men Tshirt'] 
+[INFO] - [26-11-2026 19:37:13] [main] [com.automationexercises.utils.actions.ElementActions] - Clicked on element: By.xpath: //div[@class='overlay-content']//p[text()='Men Tshirt']/following-sibling::a
+[INFO] - [26-11-2026 19:37:13] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.cssSelector: .modal-body>p: 
+[INFO] - [26-11-2026 19:37:13] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.cssSelector: .modal-body>p: Your product has been added to cart.
+[INFO] - [26-11-2026 19:37:13] [main] [com.automationexercises.pages.ProductPage] - Validating item added Label: Your product has been added to cart.
+[INFO] - [26-11-2026 19:37:14] [main] [com.automationexercises.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .modal-body a[href='/view_cart']
+[INFO] - [26-11-2026 19:37:14] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: //h4 /a[.='Men Tshirt']: Men Tshirt
+[INFO] - [26-11-2026 19:37:14] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: (//h4 /a[.='Men Tshirt'] //following::td[@class='cart_price']/p)[1]: Rs. 400
+[INFO] - [26-11-2026 19:37:14] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: (//h4 /a[.='Men Tshirt'] //following::td[@class='cart_quantity']/button)[1]: 1
+[INFO] - [26-11-2026 19:37:14] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: (//h4 /a[.='Men Tshirt'] //following::td[@class='cart_total']/p)[1]: Rs. 400
+[INFO] - [26-11-2026 19:37:14] [main] [com.automationexercises.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [26-11-2026 19:37:14] [main] [com.automationexercises.listeners.TestNGListeners] - Test Case addProductToCart Passed and screen recording stopped.
+[INFO] - [26-11-2026 19:37:14] [main] [com.automationexercises.listeners.TestNGListeners] - Test Casecheckout execution started and screen recording started.
+[INFO] - [26-11-2026 19:37:16] [main] [com.automationexercises.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[.='Proceed To Checkout']
+[INFO] - [26-11-2026 19:37:16] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: //ul[@class="address alternate_item box"]/li[@class="address_firstname address_lastname"]: Mr. Automation_Firstname Automation_Lastname
+[INFO] - [26-11-2026 19:37:16] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: //ul[@class="address alternate_item box"]/li[@class="address_address1 address_address2"][1]: Automation Company
+[INFO] - [26-11-2026 19:37:16] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: //ul[@class="address alternate_item box"]/li[@class="address_address1 address_address2"][2]: 123 Test Street
+[INFO] - [26-11-2026 19:37:16] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: //ul[@class="address alternate_item box"]/li[@class="address_address1 address_address2"][3]: Building 5
+[INFO] - [26-11-2026 19:37:16] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: //ul[@class="address alternate_item box"]/li[@class="address_city address_state_name address_postcode"]: Helwan Cairo 11722
+[INFO] - [26-11-2026 19:37:16] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: //ul[@class="address alternate_item box"]/li[@class="address_country_name"]: India
+[INFO] - [26-11-2026 19:37:16] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: //ul[@class="address alternate_item box"]/li[@class="address_phone"]: 01012345678
+[INFO] - [26-11-2026 19:37:16] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: //ul[@class="address alternate_item box"]/li[@class="address_firstname address_lastname"]: Mr. Automation_Firstname Automation_Lastname
+[INFO] - [26-11-2026 19:37:16] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: //ul[@class="address alternate_item box"]/li[@class="address_address1 address_address2"][1]: Automation Company
+[INFO] - [26-11-2026 19:37:16] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: //ul[@class="address alternate_item box"]/li[@class="address_address1 address_address2"][2]: 123 Test Street
+[INFO] - [26-11-2026 19:37:16] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: //ul[@class="address alternate_item box"]/li[@class="address_address1 address_address2"][3]: Building 5
+[INFO] - [26-11-2026 19:37:16] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: //ul[@class="address alternate_item box"]/li[@class="address_city address_state_name address_postcode"]: Helwan Cairo 11722
+[INFO] - [26-11-2026 19:37:16] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: //ul[@class="address alternate_item box"]/li[@class="address_country_name"]: India
+[INFO] - [26-11-2026 19:37:16] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: //ul[@class="address alternate_item box"]/li[@class="address_phone"]: 01012345678
+[INFO] - [26-11-2026 19:37:17] [main] [com.automationexercises.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [26-11-2026 19:37:17] [main] [com.automationexercises.listeners.TestNGListeners] - Test Case checkout Passed and screen recording stopped.
+[INFO] - [26-11-2026 19:37:17] [main] [com.automationexercises.listeners.TestNGListeners] - Test CasepaymentTest execution started and screen recording started.
+[INFO] - [26-11-2026 19:37:17] [main] [com.automationexercises.utils.actions.ElementActions] - Clicked on element: By.xpath:  //a[.='Place Order']
+[INFO] - [26-11-2026 19:37:20] [main] [com.automationexercises.utils.actions.ElementActions] - Typed text 'Ahmed Mohamed' into element: By.name: name_on_card
+[INFO] - [26-11-2026 19:37:21] [main] [com.automationexercises.utils.actions.ElementActions] - Typed text '1234567890123456' into element: By.name: card_number
+[INFO] - [26-11-2026 19:37:21] [main] [com.automationexercises.utils.actions.ElementActions] - Typed text '123' into element: By.name: cvc
+[INFO] - [26-11-2026 19:37:21] [main] [com.automationexercises.utils.actions.ElementActions] - Typed text '12' into element: By.name: expiry_month
+[INFO] - [26-11-2026 19:37:21] [main] [com.automationexercises.utils.actions.ElementActions] - Typed text '2030' into element: By.name: expiry_year
+[INFO] - [26-11-2026 19:37:21] [main] [com.automationexercises.utils.actions.ElementActions] - Clicked on element: By.id: submit
+[INFO] - [26-11-2026 19:37:23] [main] [com.automationexercises.utils.actions.ElementActions] - Text from element By.xpath: //div[@class="col-sm-9 col-sm-offset-1"]/p: Congratulations! Your order has been confirmed!
+[INFO] - [26-11-2026 19:37:23] [main] [com.automationexercises.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [26-11-2026 19:37:24] [main] [com.automationexercises.listeners.TestNGListeners] - Test Case paymentTest Passed and screen recording stopped.
+[INFO] - [26-11-2026 19:37:24] [main] [com.automationexercises.listeners.TestNGListeners] - Test CasedeleteAccountAsPostCondition execution started and screen recording started.
+[INFO] - [26-11-2026 19:37:24] [main] [com.automationexercises.apis.UserManagmentAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [26-11-2026 19:37:24] [main] [com.automationexercises.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [26-11-2026 19:37:24] [main] [com.automationexercises.listeners.TestNGListeners] - Test Case deleteAccountAsPostCondition Passed and screen recording stopped.
+[INFO] - [26-11-2026 19:37:24] [main] [com.automationexercises.listeners.TestNGListeners] - Test CasedownloadInvoice execution started and screen recording started.
+[INFO] - [26-11-2026 19:37:25] [main] [com.automationexercises.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[@class="btn btn-default check_out"]
+[INFO] - [26-11-2026 19:37:25] [main] [com.automationexercises.FileUtils] - Download Directory: C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recovery\src\test\resources\downloads
+[INFO] - [26-11-2026 19:37:25] [main] [com.automationexercises.FileUtils] - File Name: invoice.txt
+[INFO] - [26-11-2026 19:37:25] [main] [com.automationexercises.FileUtils] - Absolute Path: C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recovery\src\test\resources\downloads\invoice.txt
+[INFO] - [26-11-2026 19:37:25] [main] [com.automationexercises.FileUtils] - File Exists: false
+[INFO] - [26-11-2026 19:37:25] [main] [com.automationexercises.FileUtils] - Download Directory: C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recovery\src\test\resources\downloads
+[INFO] - [26-11-2026 19:37:25] [main] [com.automationexercises.FileUtils] - File Name: invoice.txt
+[INFO] - [26-11-2026 19:37:25] [main] [com.automationexercises.FileUtils] - Absolute Path: C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recovery\src\test\resources\downloads\invoice.txt
+[INFO] - [26-11-2026 19:37:25] [main] [com.automationexercises.FileUtils] - File Exists: true
+[INFO] - [26-11-2026 19:37:26] [main] [com.automationexercises.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [26-11-2026 19:37:27] [main] [com.automationexercises.listeners.TestNGListeners] - Test Case downloadInvoice Passed and screen recording stopped.
+[INFO] - [26-11-2026 19:37:34] [main] [com.automationexercises.listeners.TestNGListeners] - Allure reports generated.
+[INFO] - [26-11-2026 19:37:34] [main] [com.automationexercises.FileUtils] - Directory copied successfully from C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recovery\test-output\full-report\history to C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recovery\test-output\allure-results\history
+[INFO] - [26-11-2026 19:37:34] [main] [com.automationexercises.listeners.TestNGListeners] - Allure history copied.
+[INFO] - [26-11-2026 19:37:37] [main] [com.automationexercises.listeners.TestNGListeners] - Allure reports generated with history.
+[INFO] - [26-11-2026 19:37:37] [main] [com.automationexercises.FileUtils] - Target File Path: C:\Users\test\IdeaProjects\DemoBlazeTAF-Final-Recovery\test-output\reports\index.html File was renamed to AllureReport_2026-11-26_19-37-37.html
+[INFO] - [26-11-2026 19:37:37] [main] [com.automationexercises.listeners.TestNGListeners] - Test Execution finished and Allure report opened in browser.
