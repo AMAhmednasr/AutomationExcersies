@@ -20,7 +20,12 @@ import java.io.File;
 import static com.automationexercises.utils.report.AllureConstant.REPORT_PATH;
 import static com.automationexercises.utils.report.AllureConstant.RESULTS_FOLDER;
 
-public class TestNGListeners  implements IExecutionListener, IInvokedMethodListener, ITestListener {
+public class TestNGListeners  implements ISuiteListener ,IExecutionListener, IInvokedMethodListener, ITestListener {
+
+    public void onStart(ISuite suite) {
+suite.getXmlSuite().setName("Automation Exercise");
+
+    }
 
 
     public void onExecutionStart() {
