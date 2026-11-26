@@ -1,56 +1,75 @@
 # Automation Exercises – Selenium Automation Framework
 
-A Java-based automation testing framework built using Selenium WebDriver, TestNG, and Maven to automate UI and API testing scenarios for the Automation Exercise website.
+A Java-based test automation framework for automating UI and API test scenarios on the Automation Exercise website.
 
-## Tech Stack
-- Java
-- Selenium WebDriver
-- TestNG
+## Prerequisites
+
+Before running the project, make sure you have:
+
+- Java JDK 21 or later
 - Maven
-- REST Assured
-- Postman
-- Allure Reports
-- Log4j2
-- Git & GitHub
+- IntelliJ IDEA (recommended)
+- Google Chrome browser
 
-## Framework Features
-- Page Object Model (POM)
-- UI and API Automation Testing
-- Data-Driven Testing using JSON
-- Reusable Actions and Utilities
-- Explicit Wait Management
-- TestNG Listeners
-- Screenshot and Video Recording
-- Logging using Log4j2
-- Allure Test Reporting
+## Getting Started
 
-## Test Coverage
-- User Registration and Login
-- Product Browsing
-- Shopping Cart
-- Checkout and Payment
-- API User Registration
-
-## Run Tests
-
-Clone the repository:
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/AMAhmednasr/AutomationExcersies.git
 ```
 
-Run tests using Maven:
+**2. Open the project**
+
+- Open IntelliJ IDEA.
+- Select **Open** and choose the cloned project folder.
+- Wait for Maven to download the required dependencies.
+
+**3. Configure the project**
+
+- Check the test configuration and required properties.
+- Make sure your browser and Java environment are configured correctly.
+
+**4. Run the tests**
+
+From the terminal, execute:
 
 ```bash
 mvn clean test
 ```
 
-## Reports
+Or run the TestNG test classes directly from IntelliJ IDEA.
 
-Allure reports are generated to help analyze test execution results, failures, and screenshots.
+## Framework Features
+
+- Selenium WebDriver with Page Object Model (POM)
+- TestNG test execution
+- UI and API automation
+- Data-driven testing using JSON
+- Reusable utilities and explicit waits
+- Automatic screenshots and screen recording
+- Logging and Allure reporting
+
+## Test Scenarios
+
+- User Registration and Login
+- Product Browsing
+- Shopping Cart
+- Checkout and Payment
+- API Registration
+
+## Test Reports
+
+Allure results are generated during test execution.
+
+To generate and open the report, use:
+
+```bash
+allure serve allure-results
+```
 
 ## Author
 
 **Ahmed Abdelmoneim**
 
-GitHub: [AMAhmednasr](https://github.com/AMAhmednasr)
+GitHub: https://github.com/AMAhmednasr
